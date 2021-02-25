@@ -13,7 +13,7 @@
         android:layout_marginTop="16dp"
         android:layout_weight="1"
         android:text="Gary Boelhower and Sarah Brokke Erickson will reflect on their collaborative artistic journey of creating A Common Thirst "
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1"
         tools:layout_editor_absoluteX="0dp" />
 
     <Button
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toTopOf="@+id/buttonCalendar1" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
@@ -76,8 +76,8 @@
         android:text="Crafting a Children's Book Focused on the Common Good"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintStart_toEndOf="@+id/imageView1"
+        app:layout_constraintTop_toTopOf="@+id/imageView1" />
 
     <TextView
         android:id="@+id/textViewDate1"
