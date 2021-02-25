@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "CIS3334_Spotlight_Intents_Start"
