@@ -1,102 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textViewDescription1"
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_weight="1"
-        android:text="Gary Boelhower and Sarah Brokke Erickson will reflect on their collaborative artistic journey of creating A Common Thirst "
-        app:layout_constraintTop_toBottomOf="@+id/imageView1"
-        tools:layout_editor_absoluteX="0dp" />
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/buttonWeb1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_weight="1"
-        android:text="Web Info"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDescription1" />
+        <TextView
+            android:id="@+id/textViewDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:text="The collegiate women’s choirs of The College of St. Scholastica, College of St. Benedict, University of Northwestern–St. Paul, and the University of St. Thomas will collaborate to perform songs of struggle, strength, and empowerment."
+            app:layout_constraintTop_toBottomOf="@+id/imageView1"
+            tools:layout_editor_absoluteX="0dp" />
 
-    <Button
-        android:id="@+id/buttonCalendar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_weight="1"
-        android:text="Add to Calendar"
-        app:layout_constraintStart_toEndOf="@+id/buttonWeb1"
-        app:layout_constraintTop_toTopOf="@+id/buttonWeb1" />
+        <Button
+            android:id="@+id/buttonWeb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="Web Info"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDescription1" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Spotlight Events"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        <Button
+            android:id="@+id/buttonCalendar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Add to Calendar"
+            app:layout_constraintStart_toEndOf="@+id/buttonWeb1"
+            app:layout_constraintTop_toTopOf="@+id/buttonWeb1" />
 
-    <Button
-        android:id="@+id/buttonMap1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_weight="1"
-        android:text="Map"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/buttonCalendar1"
-        app:layout_constraintTop_toTopOf="@+id/buttonCalendar1" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spotlight Events"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewStatus"
-        app:srcCompat="@drawable/crafting_book" />
+        <Button
+            android:id="@+id/buttonMap1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Map"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonCalendar1"
+            app:layout_constraintTop_toTopOf="@+id/buttonCalendar1" />
 
-    <TextView
-        android:id="@+id/textViewTitle1"
-        android:layout_width="289dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Crafting a Children's Book Focused on the Common Good"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView1"
-        app:layout_constraintTop_toTopOf="@+id/imageView1" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStatus"
+            app:srcCompat="@drawable/stillrise" />
 
-    <TextView
-        android:id="@+id/textViewDate1"
-        android:layout_width="286dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="8dp"
-        android:text="FRIDAY, FEBRUARY 26, 2021, 3:40 – 4:55 P.M."
-        app:layout_constraintEnd_toEndOf="@+id/textViewTitle1"
-        app:layout_constraintStart_toStartOf="@+id/textViewTitle1"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitle1" />
+        <TextView
+            android:id="@+id/textViewTitle1"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Still I Rise - Bella Voce"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView1"
+            app:layout_constraintTop_toTopOf="@+id/imageView1" />
 
-    <TextView
-        android:id="@+id/textViewStatus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Status"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:layout_editor_absoluteX="21dp" />
+        <TextView
+            android:id="@+id/textViewDate1"
+            android:layout_width="286dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="8dp"
+            android:text="April 8, 2022, 7:30-8:30 P.M."
+            app:layout_constraintEnd_toEndOf="@+id/textViewTitle1"
+            app:layout_constraintStart_toStartOf="@+id/textViewTitle1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitle1" />
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Status"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:layout_editor_absoluteX="21dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
